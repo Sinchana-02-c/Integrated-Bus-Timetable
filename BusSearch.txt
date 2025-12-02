@@ -1,0 +1,9 @@
+public class BusSearch {
+    public static void main(String[] args) {
+        String[] routes = {"101","202","303"};
+        String search = "202";
+        for(String r: routes){
+            if(r.equals(search)) System.out.println("Found route: " + r);
+        }
+    }
+}
