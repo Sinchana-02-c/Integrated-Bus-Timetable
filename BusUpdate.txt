@@ -1,0 +1,11 @@
+import java.util.HashMap;
+
+public class BusUpdate {
+    public static void main(String[] args) {
+        HashMap<String,String> time = new HashMap<>();
+        time.put("101","8:00 AM");
+        time.put("202","9:30 AM");
+        time.put("202","10:00 AM"); // update
+        System.out.println("Route 202 → " + time.get("202"));
+    }
+}
